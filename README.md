@@ -1,69 +1,48 @@
-# Hey Coach 🏀
+Coach 🏀
 
-Hey Coach is a simple Python-based assistant designed to help basketball coaches manage basic team information, games, lineups, statistics, and notes.
+Coach is a simple basketball assistant project built with Python.
 
-## Features
+The main idea is to help a basketball coach manage players, games, lineups, statistics, and notes in one place.
 
-- 👥 **Players**
-  - Add and manage players
-  - Store player information
+Features
 
-- 🏀 **Games**
-  - Add games
-  - View saved games
-  - Search for games
+- Add and manage an unlimited number of players
+- Store player information such as:
+  - Age
+  - Height and weight
+  - Position
+  - Dominant hand
+  - Strengths and weaknesses
+  - Shooting percentage
+  - Performance
+- Add upcoming games
+- Create a team lineup
+- Choose the starting five
+- Record game statistics
+- Add notes and observations after each game
 
-- 📋 **Team Lineup**
-  - Enter players who are present
-  - Select 5 starters from the present players
-  - View the current lineup
+Project Structure
 
-- 📊 **Game Statistics**
-  - Add basic player statistics for a game
-  - View saved game statistics
+The project is currently focused on the main functionality and data management.
+The graphical user interface can be added and improved in future versions.
 
-- 📝 **Coach Notes**
-  - Add notes
-  - View saved notes
-
-- 💾 **Data Storage**
-  - Uses JSON to save information
-  - Saved data can be loaded when the program starts
-
-- 📊 **Coach Dashboard**
-  - Shows a quick overview of players, games, present players, starters, and notes
-
-## Technologies
+Technologies
 
 - Python
-- JSON
+- JSON for storing data
 
-## How to Run
+Why I Made It
 
-1. Make sure Python is installed.
-2. Download or clone this repository.
-3. Run the main Python file:
+I created this project to practice Python by building something connected to one of my interests: basketball.
 
-```bash
-python hey_coach.py
-```
+I also wanted to make a project that could be useful for organizing team information and helping a coach keep track of players and games.
 
-The program will create/use `coach_data.json` to store saved information.
+Future Ideas
 
-## Project Goal
+Some possible improvements for future versions:
 
-The goal of Hey Coach is to create a simple and practical digital assistant for basketball coaches while keeping the code beginner-friendly and easy to understand.
-
-## Future Ideas
-
-Possible future improvements include:
-
-- More detailed player statistics
-- Player performance summaries
-- Support for other sports
-- A graphical user interface
-- More advanced data visualization
-
-## Author
-
-Created as a Python learning project.
+- Add a graphical user interface
+- Add more detailed player statistics
+- Add performance analysis
+- Create reports after games
+- Add more advanced basketball recommendations
